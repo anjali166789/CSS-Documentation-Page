@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <mata name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+    <nav id="navbar">
+    <header>CSS Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Selectors">Selectors</a>
+      <a class="nav-link" href="#Colors">Colors</a>
+      <a class="nav-link" href="#Box_Modelling">Box Modelling</a>
+      <a class="nav-link" href="#Flexbox">Flexbox</a>
+      </nav> 
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+       <p>CSS stands for Cascading Style Sheets and is used to style HTML documents.</p>
+       <p>It controls colors, fonts, spacing, layouts, and the overall appearance of web pages.</p>
+       <p>CSS can change the appearance of a web page.</p>
+
+       <code>
+       body {
+       background-color: lightblue;
+       }
+       </code>
+       <p>
+     
+    </section>
+    <hr>
+    <section class="main-section" id="Selectors">
+      <header>Selectors</header>
+      <p>CSS selectors are used to target HTML elements that need styling.</p>
+      <p>Common selectors include element, class, and ID selectors.</p>
+      <code>
+      p {
+      color: red;
+      }
+     </code>
+     
+    <p>Common Selectors are: </p>
+     <ul>
+      <li>Element selector (p)</li>
+      <li>Class selector (.class-name)</li>
+      <li>ID selector (#id-name)</li>
+      </ul>
+     
+    </section>
+    <hr>
+    <section class="main-section" id="Colors">
+      <header>Colors</header>
+      <p>CSS allows developers to apply colors to text, backgrounds, and borders.</p>
+      <p>Colors can be specified using names, hexadecimal values, RGB, or HSL.</p>
+     <code>
+     h1 {
+     color: #3498db;
+      }
+     </code>
+
+    <p>Color formats: </p>
+    <ul>
+    <li>Color names</li>
+    <li>Hex codes</li>
+    <li>RGB values</li>
+    <li>HSL values</li>
+    </ul>
+     
+    </section>
+    <hr>
+    <section class="main-section" id="Box_Modelling">
+      <header>Box Modelling</header>
+      <p>The CSS box model describes how elements are displayed as rectangular boxes.</p>
+      <p>It consists of content, padding, border, and margin.</p>
+     <code>
+     div {
+    margin: 10px;
+    }
+    </code>
+    <p>The box model consists of: </p>
+    <ul>
+    <li>Content</li>
+    <li>Padding</li>
+    <li>Border</li>
+    <li>Margin</li>
+    </ul>
+    </section>
+    <hr>
+    <section class="main-section" id="Flexbox">
+      <header>Flexbox</header>
+      <p>Flexbox is a one-dimensional layout system for arranging items in rows or columns.</p>
+      <p>It makes it easier to align and distribute space between elements.</p>
+      <code>
+      .container {
+      display: flex;
+      }
+      </code>
+    
+     
+    </section>
+    </nav>
+    </main>
+
+  </body>
+  </html>
